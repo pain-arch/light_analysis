@@ -7,6 +7,7 @@ import { Button } from "./ui/button";
 import { BarChart3, Loader2, LogIn } from "lucide-react";
 import { Authenticated, AuthLoading, Unauthenticated } from "convex/react";
 import { SignInButton, UserButton } from "@clerk/clerk-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 function Header() {
 
@@ -41,7 +42,7 @@ function Header() {
             </Button>
           </Link>
 
-          {/* <ThemeToggle /> */}
+          <ThemeToggle />
 
           <AuthLoading>
             <Button variant="outline">
