@@ -26,10 +26,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#cdd7d6] via-[#e8eceb] to-[#cdd7d6] dark:from-[#102542] dark:via-[#0d1e35] dark:to-[#102542]">
+    <div className="min-h-screen bg-linear-to-br from-[#cdd7d6] via-[#e8eceb] to-[#cdd7d6] dark:from-[#102542] dark:via-[#0d1e35] dark:to-[#102542]">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#f87060]/10 via-[#102542]/10 to-[#f87060]/10" />
+        <div className="absolute inset-0 bg-linear-to-r from-[#f87060]/10 via-[#102542]/10 to-[#f87060]/10" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(248,112,96,0.15),transparent_50%)]" />
         <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-32 lg:px-8">
           <div className="text-center">
@@ -39,13 +39,13 @@ export default function Home() {
             </Badge>
 
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-              <span className="bg-gradient-to-r from-[#102542] via-[#1a3a5f] to-[#102542] dark:from-white dark:via-[#cdd7d6] dark:to-white bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-[#102542] via-[#1a3a5f] to-[#102542] dark:from-white dark:via-[#cdd7d6] dark:to-white bg-clip-text text-transparent">
                 Create Stunning
               </span>
-              <span className="block bg-gradient-to-r from-[#f87060] via-[#ff8575] to-[#f87060] bg-clip-text text-transparent">
+              <span className="block bg-linear-to-r from-[#f87060] via-[#ff8575] to-[#f87060] bg-clip-text text-transparent">
                 SEO Reports
               </span>
-              <span className="bg-gradient-to-r from-[#102542] via-[#1a3a5f] to-[#102542] dark:from-white dark:via-[#cdd7d6] dark:to-white bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-[#102542] via-[#1a3a5f] to-[#102542] dark:from-white dark:via-[#cdd7d6] dark:to-white bg-clip-text text-transparent">
                 in Seconds
               </span>
             </h1>
@@ -103,8 +103,8 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Starter Plan Card */}
-            <Card className="relative overflow-hidden border-2 border-[#102542]/30 dark:border-[#102542] hover:border-[#102542] dark:hover:border-[#f87060]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#102542]/10 group bg-gradient-to-br from-white/80 to-[#cdd7d6]/50 dark:from-[#102542]/50 dark:to-[#0d1e35]/50">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#102542]/10 to-[#cdd7d6]/20 rounded-full -translate-y-16 translate-x-16" />
+            <Card className="relative overflow-hidden border-2 border-[#102542]/30 dark:border-[#102542] hover:border-[#102542] dark:hover:border-[#f87060]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#102542]/10 group bg-linear-to-br from-white/80 to-[#cdd7d6]/50 dark:from-[#102542]/50 dark:to-[#0d1e35]/50">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-linear-to-br from-[#102542]/10 to-[#cdd7d6]/20 rounded-full -translate-y-16 translate-x-16" />
               <CardHeader className="relative">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="p-2 rounded-lg bg-[#102542] text-white">
@@ -143,15 +143,15 @@ export default function Home() {
             </Card>
 
             {/* Pro Plan Card */}
-            <Card className="relative overflow-hidden border-2 border-[#f87060] dark:border-[#f87060]/80 hover:border-[#ff6550] dark:hover:border-[#f87060] transition-all duration-300 hover:shadow-2xl hover:shadow-[#f87060]/30 group bg-gradient-to-br from-white/90 via-[#cdd7d6]/30 to-white/90 dark:from-[#102542]/80 dark:via-[#1a3a5f]/80 dark:to-[#102542]/80">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#f87060]/20 to-[#ff8575]/20 rounded-full -translate-y-16 translate-x-16" />
+            <Card className="relative overflow-hidden border-2 border-[#f87060] dark:border-[#f87060]/80 hover:border-[#ff6550] dark:hover:border-[#f87060] transition-all duration-300 hover:shadow-2xl hover:shadow-[#f87060]/30 group bg-linear-to-br from-white/90 via-[#cdd7d6]/30 to-white/90 dark:from-[#102542]/80 dark:via-[#1a3a5f]/80 dark:to-[#102542]/80">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-linear-to-br from-[#f87060]/20 to-[#ff8575]/20 rounded-full -translate-y-16 translate-x-16" />
               <Badge className="absolute top-4 right-4 bg-[#f87060] text-white border-0">
                 <Sparkles className="w-3 h-3 mr-1 text-[#cdd7d6]" />
                 Popular
               </Badge>
               <CardHeader className="relative">
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="p-2 rounded-lg bg-gradient-to-br from-[#f87060] to-[#ff6550] text-white">
+                  <div className="p-2 rounded-lg bg-linear-to-br from-[#f87060] to-[#ff6550] text-white">
                     <MessageSquare className="w-6 h-6" />
                   </div>
                   <Badge className="bg-[#f87060]/20 text-[#f87060] hover:bg-[#f87060]/30 dark:bg-[#f87060]/30 dark:text-white border-0">
@@ -198,7 +198,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 sm:py-32 bg-gradient-to-r from-[#cdd7d6]/30 via-white/50 to-[#cdd7d6]/30 dark:from-[#0d1e35]/50 dark:via-[#102542]/50 dark:to-[#0d1e35]/50">
+      <section className="py-20 sm:py-32 bg-linear-to-r from-[#cdd7d6]/30 via-white/50 to-[#cdd7d6]/30 dark:from-[#0d1e35]/50 dark:via-[#102542]/50 dark:to-[#0d1e35]/50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
@@ -211,7 +211,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Starter Pricing */}
-            <Card className="hover:shadow-lg hover:shadow-[#102542]/15 transition-all duration-300 border-[#102542]/30 dark:border-[#102542] bg-gradient-to-br from-white to-[#cdd7d6]/30 dark:from-[#102542]/80 dark:to-[#0d1e35]/80">
+            <Card className="hover:shadow-lg hover:shadow-[#102542]/15 transition-all duration-300 border-[#102542]/30 dark:border-[#102542] bg-linear-to-br from-white to-[#cdd7d6]/30 dark:from-[#102542]/80 dark:to-[#0d1e35]/80">
               <CardHeader className="text-center pb-8">
                 <CardTitle className="text-xl mb-2">Starter</CardTitle>
                 <div className="flex items-baseline justify-center gap-1">
@@ -251,7 +251,7 @@ export default function Home() {
             </Card>
 
             {/* Pro Pricing */}
-            <Card className="border-2 border-[#f87060] dark:border-[#f87060]/80 hover:border-[#ff6550] hover:shadow-xl hover:shadow-[#f87060]/25 transition-all duration-300 relative bg-gradient-to-br from-white via-[#cdd7d6]/20 to-white dark:from-[#102542]/80 dark:via-[#1a3a5f]/80 dark:to-[#102542]/80">
+            <Card className="border-2 border-[#f87060] dark:border-[#f87060]/80 hover:border-[#ff6550] hover:shadow-xl hover:shadow-[#f87060]/25 transition-all duration-300 relative bg-linear-to-br from-white via-[#cdd7d6]/20 to-white dark:from-[#102542]/80 dark:via-[#1a3a5f]/80 dark:to-[#102542]/80">
               <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#f87060] text-white border-0">
                 Most Popular
               </Badge>
